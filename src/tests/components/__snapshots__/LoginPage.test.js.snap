@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LoginPage correctly 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      My Expenses
+    </h1>
+    <p>
+      Get your expenses in order!
+    </p>
+    <div
+      className="box-layout__signup"
+    >
+      <Link
+        className="box-layout__link"
+        replace={false}
+        to="/signup"
+      >
+        Sign Up!
+      </Link>
+    </div>
+    <AuthEmailForm />
+    <div
+      className="box-layout__title"
+    >
+      Or
+    </div>
+    <button
+      className="button"
+    >
+      Login with Google
+    </button>
+  </div>
+</div>
+`;
