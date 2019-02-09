@@ -51,6 +51,7 @@ class SignUpForm extends React.Component {
   render() {
     return (
       <form className="form__auth" onSubmit={this.onSubmit}>
+        {this.state.error && <p className="form__error">{this.state.error}</p>}
         <input
           type="email"
           placeholder="Email Address"
